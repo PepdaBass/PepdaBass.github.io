@@ -5,3 +5,62 @@
 body {
     margin: 0;
 }
+
+.navbar {
+    background-color: #D4D2D6;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    color: #2C4B43;
+    text-decoration: none;
+    padding: 16px 14px;
+}
+
+.navbar a:hover {
+    background-color: #487b6e;
+    color: #4b2c34;
+}
+
+.navbar a:active {
+    background-color: #D4D2D6;
+    color: #2C4B43;
+}
+
+.name_title {
+    background-color: #D4D2D6;
+    color: #2C4B43;
+}
+
+.about_me {
+    background-color: #D4D2D6;
+    color: #2C4B43;
+}
+
+.project_list {
+    background-color: #2C4B43;
+    color: #2C4B43;
+}
+
+.project_list h4 {
+    background-color: #D4D2D6;
+}
+
+.project_list p {
+    background-color: #D4D2D6;
+}
+
+.contact {
+    background-color: #2C4B43;
+    color: #2C4B43;
+}
+
+.contact h3 {
+    background-color: #D4D2D6;
+}
+
+.contact p {
+    background-color: #D4D2D6; 
+}
