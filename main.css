@@ -6,12 +6,12 @@ body {
     margin: 0;
 }
 
-.navbar {
+nav {
     background-color: #D4D2D6;
     overflow: hidden;
 }
 
-.navbar a {
+nav a {
     float: left;
     text-align: center;
     color: #2C4B43;
@@ -19,48 +19,106 @@ body {
     padding: 16px 14px;
 }
 
-.navbar a:hover {
+nav a:hover {
     background-color: #487b6e;
     color: #4b2c34;
 }
 
-.navbar a:active {
+nav a:active {
     background-color: #D4D2D6;
     color: #2C4B43;
 }
 
 .name_title {
-    background-color: #D4D2D6;
+    background-color: #2C4B43;
+    position: relative;
+    text-align: left;
+}
+
+.name_title h1 {
     color: #2C4B43;
+    position: absolute;
+    top: 2px;
+    left: 16px;
 }
 
 .about_me {
+    margin-top: -1rem;
+}
+.about_me p {
     background-color: #D4D2D6;
     color: #2C4B43;
+    height: 614px;
+    text-align: left;
+    padding: 5rem 1rem 0rem 1rem;
+    margin-left: 36rem;
+    line-height: 2;
+}
+
+.about_me img {
+    float: left;
+    width: 65%;
+    height: 614px;
 }
 
 .project_list {
     background-color: #2C4B43;
-    color: #2C4B43;
+    position: relative;
+    margin-top: -1rem;
+    padding: 1rem;
 }
 
-.project_list h4 {
-    background-color: #D4D2D6;
+.projects {
+    width: 40%;
 }
 
-.project_list p {
-    background-color: #D4D2D6;
+.projects:hover {
+    box-shadow: 0 8px 16px 0 #487b6e;
 }
+
+.project_card {
+    padding: 2px 16px;
+    background-color: #D4D2D6;
+    color: #2C4B43
+}
+
+.projects > img {
+    width: 100%;
+}
+
 
 .contact {
     background-color: #2C4B43;
+    margin-top: -1.2rem;
+    padding-bottom: 1rem;
+}
+
+.contact_header {
+    text-align: center;
+    background-color: #D4D2D6;
     color: #2C4B43;
 }
 
-.contact h3 {
+.contact_info {
     background-color: #D4D2D6;
+    color: #2C4B43;
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    left: 5rem;
+    padding: 0.21`````````````````````````````````````````````````````````````rem;
 }
 
-.contact p {
-    background-color: #D4D2D6; 
+
+footer {
+    position: relative;
+    padding: 1rem;
+    background-color: #D4D2D6;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #2C4B43;
 }
