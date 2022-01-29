@@ -66,6 +66,8 @@ nav a:active {
     position: relative;
     margin-top: -1rem;
     padding: 1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .projects {
