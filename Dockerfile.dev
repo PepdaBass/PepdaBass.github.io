@@ -2,8 +2,11 @@ FROM nginx:latest
 
 WORKDIR /portfolio
 
-COPY ./index.html /usr/share/nginx/html/index.html
 
-EXPOSE 8080
+COPY ./ ./
+
+EXPOSE 80
+
+COPY ./ /usr/share/nginx/html
 
 CMD ["nginx", "-g", "daemon off;"]
