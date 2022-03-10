@@ -44,6 +44,7 @@ nav a:active {
 
 .about_me {
     margin-top: -1rem;
+    position: relative;
 }
 .about_me p {
     background-color: #D4D2D6;
@@ -63,6 +64,8 @@ nav a:active {
 
 .project_list {
     background-color: #2C4B43;
+    width: 100%;
+    height: 500px;
     position: relative;
     margin-top: -1rem;
     padding: 1rem;
@@ -71,7 +74,22 @@ nav a:active {
 }
 
 .projects {
-    width: 40%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.project_image {
+    position: relative;
+    height: 100px;
+    width: auto;
+}
+
+.project_image img{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
 }
 
 .projects:hover {
@@ -79,36 +97,35 @@ nav a:active {
 }
 
 .project_card {
+    text-align: center;
     padding: 2px 16px;
     background-color: #D4D2D6;
     color: #2C4B43
 }
 
-.projects > img {
-    width: 100%;
-}
 
 
 .contact {
-    background-color: #2C4B43;
+    background-color: #D4D2D6;
+    color: #2C4B43;
     margin-top: -1.2rem;
     padding-bottom: 1rem;
+    align-items: center;
+    position: relative;
 }
 
 .contact_header {
     text-align: center;
     background-color: #D4D2D6;
     color: #2C4B43;
+    
 }
 
-.contact_info {
-    background-color: #D4D2D6;
-    color: #2C4B43;
+.contact_list ul {
     text-decoration: none;
-    display: inline;
     position: relative;
-    left: 5rem;
-    padding: 0.21`````````````````````````````````````````````````````````````rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 
