@@ -1,4 +1,4 @@
-name: Deploy my-awesome-app-jbp on AWS EB using Dockerfile
+name: Deploy pepdabass Portfolio on AWS EB using Dockerfile
 
 env:
   APP_NAME: pepdabass-portfolio-jbp
