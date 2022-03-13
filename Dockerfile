@@ -1,11 +1,11 @@
-FROM nginx:latest
+FROM nginx:alpine
 
 WORKDIR /portfolio
 
-COPY . /usr/share/nginx/html
-
-COPY ./ ./
+COPY . ./
 
 EXPOSE 80
 
-CMD ["nginx", "index.html", "daemon off;"]
+COPY . /usr/share/nginx/html
+
+CMD ["nginx", "-g", "daemon off;"]
