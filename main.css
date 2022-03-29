@@ -1,143 +1,151 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
+  height: 100%;
+  background-image: linear-gradient(to bottom left, #4e8563, #d8eadd);
 }
 
 nav {
-    background-color: #D4D2D6;
-    overflow: hidden;
+  background-color: #2c4b43;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
 }
 
 nav a {
-    float: left;
-    text-align: center;
-    color: #2C4B43;
-    text-decoration: none;
-    padding: 16px 14px;
+  float: left;
+  text-align: center;
+  color: #d8eadd;
+  text-decoration: none;
+  padding: 16px 14px;
 }
 
 nav a:hover {
-    background-color: #487b6e;
-    color: #4b2c34;
+  background-color: #4e8563;
+  color: #d8eadd;
 }
 
 nav a:active {
-    background-color: #D4D2D6;
-    color: #2C4B43;
+  background-color: #d4d2d6;
+  color: #2c4b43;
 }
 
 .name_title {
-    background-color: #2C4B43;
-    position: relative;
-    text-align: left;
+  /* background-color: #4e8563; */
+  position: relative;
+  text-align: left;
+  padding-top: 50px;
 }
 
 .name_title h1 {
-    color: #2C4B43;
-    position: absolute;
-    top: 2px;
-    left: 16px;
+  color: #2c4b43;
+  position: absolute;
+  top: 2px;
+  left: 16px;
 }
 
 .about_me {
-    margin-top: -1rem;
-    position: relative;
+  margin-top: -1rem;
+  position: relative;
+  min-height: 100%;
+  height: 100%;
 }
 .about_me p {
-    background-color: #D4D2D6;
-    color: #2C4B43;
-    height: 614px;
-    text-align: left;
-    padding: 5rem 1rem 0rem 1rem;
-    margin-left: 36rem;
-    line-height: 2;
+  /* background-color: #d8eadd; */
+  color: #2c4b43;
+  height: 614px;
+  text-align: left;
+  padding: 5rem 1rem 0rem 1rem;
+  margin-left: 36rem;
+  line-height: 2;
 }
 
 .about_me img {
-    float: left;
-    width: 65%;
-    height: 614px;
+  float: left;
+  width: 65%;
+  height: 614px;
 }
 
 .project_list {
-    background-color: #2C4B43;
-    width: 100%;
-    height: 500px;
-    position: relative;
-    margin-top: -1rem;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: 50% 50%;
+  /* background-color: #4e8563; */
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: -1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 25% 25%;
+  justify-content: space-evenly;
+  row-gap: 25px;
 }
 
 .projects {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    
+  border: 20px solid #2c4b43;
+  /* border-radius: 10px; */
 }
 
 .project_image {
-    position: relative;
-    height: 100px;
-    width: auto;
+  position: relative;
+  height: 100px;
+  width: auto;
 }
 
-.project_image img{
-    position: absolute;
-    object-fit: cover;
-    width: 100%;
-    height: 100px;
+.project_image img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
 }
 
 .projects:hover {
-    box-shadow: 0 8px 16px 0 #487b6e;
+  box-shadow: 0 8px 16px 0 #487b6e;
 }
 
 .project_card {
-    text-align: center;
-    padding: 2px 16px;
-    background-color: #D4D2D6;
-    color: #2C4B43
+  text-align: center;
+  padding: 2px 16px;
+  background-color: #d8eadd;
+  color: #2c4b43;
 }
 
-
-
 .contact {
-    background-color: #D4D2D6;
-    color: #2C4B43;
-    margin-top: -1.2rem;
-    padding-bottom: 1rem;
-    align-items: center;
-    position: relative;
+  /* background-color: #d8eadd; */
+  color: #2c4b43;
+  margin-top: -1.2rem;
+  padding-bottom: 50px;
+  align-items: center;
+  position: relative;
 }
 
 .contact_header {
-    text-align: center;
-    background-color: #D4D2D6;
-    color: #2C4B43;
-    
+  text-align: center;
+  /* background-color: #d8eadd; */
+  color: #2c4b43;
 }
 
 .contact_list ul {
-    text-decoration: none;
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  text-decoration: none;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
-
 footer {
-    position: relative;
-    padding: 1rem;
-    background-color: #D4D2D6;
-    text-align: center;
-    margin-top: -1rem;
+  position: fixed;
+  height: 50px;
+  padding: 1rem;
+  background-color: #2c4b43;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
 }
 
 footer a {
-    text-decoration: none;
-    color: #2C4B43;
+  text-decoration: none;
+  color: #d8eadd;
 }
